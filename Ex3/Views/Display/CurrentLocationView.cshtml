@@ -1,0 +1,24 @@
+﻿
+@{
+	ViewBag.Title = "CurrentLocationView";
+}
+
+<!DOCTYPE html>
+	<html>
+
+		<head>
+			<link rel="stylesheet" type="text/css" href="~/Content/fullpageimg.css" />
+			<link type="text/javascript" href="~/Views/Display/currentPoint.js" />
+			<title>Home</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+		</head>
+		<body>
+			<h1> Your Current Location: </h1>
+			<canvas id="mainCanvas" width="2000" height="1000"
+					style="border:1px solid black;"></canvas>
+			<script src="~/Views/Display/currentPoint.js"></script>
+
+
+		</body>
+</html >
