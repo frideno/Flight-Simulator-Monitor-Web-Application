@@ -3,22 +3,21 @@
 	ViewBag.Title = "CurrentLocationView";
 }
 
-<!DOCTYPE html>
+
+@model Ex3.Models.DisplayCurrentPointModel
+
 	<html>
+	
+	<head>
+		<title>Display Current Location</title>
+		<p hidden id="xLocation">@this.Model.X</p>
+		<p hidden id="yLocation">@this.Model.Y</p>
 
-		<head>
-			<link rel="stylesheet" type="text/css" href="~/Content/fullpageimg.css" />
-			<link type="text/javascript" href="~/Views/Display/currentPoint.js" />
-			<title>Home</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			
-		</head>
+	</head>
 		<body>
-			<h1> Your Current Location: </h1>
-			<canvas id="mainCanvas" width="2000" height="1000"
-					style="border:1px solid black;"></canvas>
-			<script src="~/Views/Display/currentPoint.js"></script>
-
+			<img id="backgroundMap" src="~/Content/map.png" width="0" height="0"/>
+			<canvas id="mainCanvas"></canvas>
+			<script src="~/Scripts/currentPoint.js"></script>
 
 		</body>
-</html >
+	</html >

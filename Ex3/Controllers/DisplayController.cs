@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ex3.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,8 @@ namespace Ex3.Controllers
 		[HttpGet]
 		public ActionResult Display(string ip, int port)
 		{
-			return View("CurrentLocationView");
+			DisplayCurrentPointModel model = new DisplayCurrentPointModel();
+			return View("CurrentLocationView", model);
 		}
 	}
 }
