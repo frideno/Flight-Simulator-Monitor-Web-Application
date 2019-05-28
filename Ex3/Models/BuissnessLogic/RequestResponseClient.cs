@@ -33,8 +33,11 @@ namespace Ex3.Models
 
 			try
 			{			
-				connectionWriter.WriteLine(message);
-				return connectionReader.ReadLine();
+				connectionWriter.Write(message);
+				connectionWriter.Flush();
+
+				string answer =  connectionReader.ReadLine();
+				return answer;
 			}
 			catch (Exception e)
 			{

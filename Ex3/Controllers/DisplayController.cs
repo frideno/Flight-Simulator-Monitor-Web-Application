@@ -24,7 +24,7 @@ namespace Ex3.Controllers
 		 * Display page controller method: for parameters ip, port, frequency.
 		 */
 		[HttpGet]
-		public ActionResult Display(string ip, int port, double updateFrequency)
+		public ActionResult DisplayPath(string ip, int port, double updateFrequency)
 		{
 			IModel model = new DisplayLocationModel(ip, port);
 			ViewBag.UpdateFrequency = updateFrequency;

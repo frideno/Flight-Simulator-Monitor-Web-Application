@@ -27,10 +27,10 @@ namespace Ex3
 			//);
 
 			routes.MapRoute("displayPoint", "display/{ip}/{port}",
-				defaults: new { controller = "Display", action = "Display" });
+				defaults: new { controller = "Display", action = "Display", ip = UrlParameter.Optional, port = UrlParameter.Optional });
 
 			routes.MapRoute("displayPath", "display/{ip}/{port}/{updateFrequency}",
-				defaults: new { controller = "Display", action = "Display"});
+				defaults: new { controller = "Display", action = "DisplayPath"});
 
 			routes.MapRoute("savePath", "save/{ip}/{port}/{updateFrequency}/{duration}/{flightName}",
 				defaults: new { controller = "Display", action = "Save"});

@@ -21,6 +21,7 @@ namespace Ex3.Models
 		{
 			IClient flightSimulatorClient = new RequestResponeClient();
 			flightSimulatorClient.IpAndPort = new IPEndPoint(IPAddress.Parse(ip), port);
+			flightSimulatorClient.Connect();
 			dataManager = new DataManager(flightSimulatorClient);
 
 		}

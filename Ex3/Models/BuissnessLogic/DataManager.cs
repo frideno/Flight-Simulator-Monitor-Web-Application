@@ -21,7 +21,8 @@ namespace Ex3.Models
 
 		public double getFlightAttribute(string attributeName)
 		{
-			var getline = flightSimulatorClient.Request("get" + attributeName + "\r\n");
+
+			string getline = flightSimulatorClient.Request("get " + attributeName + "\r\n");
 
 			// the format it return from server: position/longitude-deg = '-157.9104004' (double)
 			try
@@ -39,3 +40,4 @@ namespace Ex3.Models
 
 		}
 	}
+}
