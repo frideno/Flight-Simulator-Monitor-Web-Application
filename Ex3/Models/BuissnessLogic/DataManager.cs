@@ -1,4 +1,4 @@
-﻿using FlightSimulator.Model;
+﻿using Ex3.Models.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,55 +8,34 @@ namespace Ex3.Models
 {
 	public class DataManager
 	{
-		RequestResponeClient flightSimulatorClient;
+		IClient flightSimulatorClient;
 
-		public DataManager()
+		public DataManager(IClient client)
 		{
-			flightSimulatorClient = new RequestResponeClient();
+			flightSimulatorClient = client;
 		}
 
-		double Lon
+		/**
+		 * getting attribute value from simulator server.
+		 */
+
+		public double getFlightAttribute(string attributeName)
 		{
-			get
+			var getline = flightSimulatorClient.Request("get" + attributeName + "\r\n");
+
+			// the format it return from server: position/longitude-deg = '-157.9104004' (double)
+			try
 			{
-				var getline = flightSimulatorClient.Request("get /position/longitude-deg\r\n");
-				//position/longitude-deg = '-157.9104004' (double)
-				try
-				{
-					string val = getline.Split('=')[1].Split('\'')[1];
-					return Double.Parse(val);
-				}
-
-				catch
-				{
-					Console.WriteLine("Exception in command channel: {0}", getline);
-					return 0;
-				}
-			}	
-
-		}
-
-		double Lat
-		{
-			get
-			{
-				var getline = flightSimulatorClient.Request("get /position/latitude-deg\r\n");
-				//position/longitude-deg = '-157.9104004' (double)
-				try
-				{
-					string val = getline.Split('=')[1].Split('\'')[1];
-					return Double.Parse(val);
-				}
-
-				catch
-				{
-					Console.WriteLine("Exception in command channel: {0}", getline);
-					return 0;
-				}
+				string val = getline.Split('=')[1].Split('\'')[1];
+				return Double.Parse(val);
 			}
 
+			catch
+			{
+				Console.WriteLine("Exception in command channel: {0}", getline);
+				return 0;
+			}
+
+
 		}
-
-
 	}
-}

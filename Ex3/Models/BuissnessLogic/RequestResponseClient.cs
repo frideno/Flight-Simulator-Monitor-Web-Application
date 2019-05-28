@@ -1,4 +1,5 @@
-﻿using FlightSimulator.Model.Interface;
+﻿using Ex3.Models.Interface;
+using Ex3.Models.Interface;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +9,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightSimulator.Model
+namespace Ex3.Models
 {
 	class RequestResponeClient : IClient
 	{

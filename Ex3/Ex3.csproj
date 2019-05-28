@@ -101,7 +101,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\currentPoint.js" />
+    <Content Include="Views\Display\currentPoint.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +114,10 @@
     <Compile Include="Models\BuissnessLogic\DataManager.cs" />
     <Compile Include="Models\BuissnessLogic\Interface\IClient.cs" />
     <Compile Include="Models\BuissnessLogic\RequestResponseClient.cs" />
-    <Compile Include="Models\DisplayCurrentPointModel.cs" />
+    <Compile Include="Models\DisplayDBLoaderModel.cs" />
+    <Compile Include="Models\DisplayLocationModel.cs" />
+    <Compile Include="Models\IModel.cs" />
+    <Compile Include="Models\SaveFlightModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +132,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Display.cshtml" />
     <Content Include="Views\Display\CurrentLocationView.cshtml" />
+    <Content Include="Views\Display\FlightPathView.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

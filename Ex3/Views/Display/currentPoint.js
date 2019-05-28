@@ -10,7 +10,7 @@ function drawPoint(ctx, x, y) {
 
 	// bigger circle:
 	ctx.beginPath();
-	ctx.fillStyle = "blue";
+	ctx.fillStyle = "yellow";
 	ctx.arc(x, y, 5, 0, 2 * Math.PI);
 	ctx.fill();
 	// smaller circle:
