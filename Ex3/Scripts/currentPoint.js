@@ -25,8 +25,8 @@ var canvas = document.getElementById("mainCanvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 var ctx = canvas.getContext('2d');
-var x = document.getElementById('xLocation').innerHTML;
-var y = document.getElementById('yLocation').innerHTML;
+var x = Math.abs(document.getElementById('xLocation').innerHTML) + 200;
+var y = Math.abs(document.getElementById('yLocation').innerHTML) + 200;
 
 drawMap(ctx);
 drawPoint(ctx, x , y);

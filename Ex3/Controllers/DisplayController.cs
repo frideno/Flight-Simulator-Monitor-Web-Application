@@ -32,6 +32,8 @@ namespace Ex3.Controllers
 			return View("FlightPathView", model);
 		}
 
+
+		//private FlightInfoContext db = new FlightInfoContext();
 		/**
 		 * Display flight and saves it to database by parameters.
 		 */
@@ -41,7 +43,8 @@ namespace Ex3.Controllers
 			IModel model = new SaveFlightModel(ip, port, flightName);
 			ViewBag.UpdateFrequency = updateFrequency;
 			ViewBag.Duration = duration;
-			return View("FlightPathView", model);
+			return View("CurrentLocationView", model);
+			// return View("FlightPathView", model);
 
 		}
 

@@ -32,19 +32,15 @@ namespace Ex3.Models
 			throw new NotImplementedException();
 		}
 
-		public virtual double X
-		{
-			get
-			{
-				return dataManager.getFlightAttribute("position/longitude-deg");
-			}
-		}
 
-		public virtual double Y
+		public virtual Location XY
 		{
 			get
 			{
-				return dataManager.getFlightAttribute("position/latitude-deg");
+				Location loc = new Location();
+				loc.X = dataManager.getFlightAttribute("position/longitude-deg");
+				loc.Y = dataManager.getFlightAttribute("position/latitude-deg");
+				return loc;
 			}
 		}
 	}

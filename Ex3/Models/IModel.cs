@@ -8,7 +8,6 @@ namespace Ex3.Models
 {
 	public interface IModel
 	{
-		double X { get; }
-		double Y { get; }
+		Location XY { get; }
 	}
 }
