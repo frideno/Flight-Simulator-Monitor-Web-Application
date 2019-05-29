@@ -15,12 +15,18 @@ namespace Ex3.Models
 		private XmlSerializer serializer;
 
 		private string fileName;
+		private FlightInfo info;
 
 		public SaveFlightModel(string ip, int port, string flightName) : base(ip, port)
 		{
 			serializer = new XmlSerializer(typeof(FlightInfo));
-			fileName = flightName;
+			fileName = flightName;	
 			pathToAppData = Path.Combine(getProjectDirectoryPath(), "App_Data");
+
+			info = new FlightInfo();
+			info.Name = fileName;
+			info.FlightBlackBox = new List<FlightInfo.FlightPointInfo>();
+
 		}
 
 		public override Location XY
@@ -29,26 +35,20 @@ namespace Ex3.Models
 			{
 				Location val = base.XY;
 
-				// save to db:
-				try
-				{
-					FlightInfo info = new FlightInfo();
-					info.Name = fileName;
+				// add to info new point of x,y.
+				
+				FlightInfo.FlightPointInfo point = new FlightInfo.FlightPointInfo();
+				point.Lon = val.X;
+				point.Lat = val.Y;
+				point.Rudder = 0;
+				point.Throttle = 0;
 
-					info.FlightBlackBoxMoment = new FlightInfo.FlightPointInfo();
-					info.FlightBlackBoxMoment.Lon = val.X;
-					info.FlightBlackBoxMoment.Lat = val.Y;
-					info.FlightBlackBoxMoment.Rudder = 0;
-					info.FlightBlackBoxMoment.Throttle = 0;
+				info.FlightBlackBox.Add(point);
 
-					using (TextWriter writer = File.AppendText(Path.Combine(pathToAppData, fileName)))
-					{
-						serializer.Serialize(writer, info);
-					}
-				}
-				catch
+				// save current list to db (don't know when we should stop).
+				using (TextWriter writer = File.CreateText(Path.Combine(pathToAppData, fileName)))
 				{
-					Console.WriteLine("failed to serialize file for flight {0}", fileName);
+					serializer.Serialize(writer, info);
 				}
 
 				return val;
@@ -58,7 +58,7 @@ namespace Ex3.Models
 		public string getProjectDirectoryPath()
 		{
 			//Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "App_Data");
-			return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3\\App_Data";
+			return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3";
 		}
 
 	}

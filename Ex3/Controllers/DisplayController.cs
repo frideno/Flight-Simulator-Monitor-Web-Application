@@ -56,7 +56,8 @@ namespace Ex3.Controllers
 		{
 			IModel model = new DisplayDBLoaderModel(flightName);
 			ViewBag.UpdateFrequency = updateFrequency;
-			return View("FlightPathView", model);
+			// return View("FlightPathView", model);
+			return View("CurrentLocationView", model);
 		}
 	}
 }

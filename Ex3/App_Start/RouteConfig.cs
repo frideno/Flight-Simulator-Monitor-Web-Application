@@ -35,7 +35,7 @@ namespace Ex3
 			routes.MapRoute("savePath", "save/{ip}/{port}/{updateFrequency}/{duration}/{flightName}",
 				defaults: new { controller = "Display", action = "Save"});
 
-			routes.MapRoute("displayFromDB", "display/{flightName}/{updateFrequency}",
+			routes.MapRoute("display", "displayFromFile/{flightName}/{updateFrequency}",
 				defaults: new { controller = "Display", action = "DisplayFromDB" });
 		}
 	}

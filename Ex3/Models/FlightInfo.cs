@@ -27,7 +27,7 @@ namespace Ex3.Models
 		public string Name { get; set; }
 
 		// flight List of info points.
-		public FlightPointInfo FlightBlackBoxMoment { get; set; }
+		public List<FlightPointInfo> FlightBlackBox { get; set; }
 	}
 
 }
