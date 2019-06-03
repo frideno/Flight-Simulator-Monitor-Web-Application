@@ -1,7 +1,112 @@
-﻿@model Ex3.Models.IModel
-
+﻿
 @{
-    ViewBag.Title = "FlightPathView";
+	ViewBag.Title = "FlightPathView";
 }
 
-@* gal fill up here all. *@
+
+<html>
+
+<head>
+	<title>Display Current Path</title>
+
+
+</head>
+<body>
+	<img id="backgroundMap" src="~/Content/map.png" width="0" height="0" />
+	<canvas id="mainCanvas"></canvas>
+	<script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+
+	<script type="text/javascript">
+
+		function wait(ms) {
+			var start = new Date().getTime();
+			var end = start;
+			while (end < start + ms) {
+				end = new Date().getTime();
+			}
+		}
+
+		function drawMap(ctx) {
+			var img = document.getElementById("backgroundMap");
+			ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+
+		}
+		function drawPoint(ctx, x, y) {
+
+			// bigger circle:
+			ctx.beginPath();
+			ctx.fillStyle = "yellow";
+			ctx.arc(x, y, 5, 0, 2 * Math.PI);
+			ctx.fill();
+			// smaller circle:
+			ctx.beginPath();
+			ctx.fillStyle = "red";
+			ctx.arc(x, y, 4, 0, 2 * Math.PI);
+			ctx.fill();
+		}
+
+		function drawLine(ctx, x1, y1, x2, y2) {
+			ctx.beginPath();
+			ctx.strokeStyle = "white";
+			ctx.moveTo(x1, y1);
+			ctx.lineTo(x2, y2);
+			ctx.stroke();
+		}
+
+
+		// main:
+		var canvas = document.getElementById("mainCanvas");
+		var width = window.innerWidth;
+		var height = window.innerHeight;
+		canvas.width = width;
+		canvas.height = height;
+
+		var updateFrequency = @ViewBag.UpdateFrequency;
+		var updateTimeIntervalMs = 1000 / updateFrequency;
+		var duration = @ViewBag.Duration + 1;
+		var howManyTimes = updateFrequency * duration;
+		var ctx = canvas.getContext('2d');
+
+		var oldX = 0;
+		var oldY = 0;
+		var first = true;
+
+		drawMap(ctx);
+
+		// interval - every updateTime seconds draw one more point and line between old one and new.
+		var loop = setInterval(function () {
+			$.post("@Url.Action("GetLocation")").done(function (json) {
+				var obj = JSON.parse(json);
+
+				var x = ((Number(obj.x) + 180) / 360) * width;
+				var y = ((Number(obj.y) + 90) / 180) * height;
+				console.log('x, y = ' + x + " " + y);
+				drawPoint(ctx, x, y);
+
+				if (first) {
+					first = false;
+				}
+				else {
+					drawLine(ctx, oldX, oldY, x, y);
+				}
+				oldX = x;
+				oldY = y;
+
+			});
+		}, updateTimeIntervalMs);
+
+		// stops after duration time.
+		setTimeout(function () {
+			clearInterval(loop);
+
+			// alerts that over if asked for.
+			if (@ViewBag.ToAlert)
+				alert("flight finished !");
+		}, duration * 1000);
+		
+	</script>
+
+</body>
+</html>

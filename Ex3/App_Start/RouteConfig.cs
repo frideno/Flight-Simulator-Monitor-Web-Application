@@ -26,7 +26,7 @@ namespace Ex3
 			//	}
 			//);
 
-			routes.MapRoute("displayPoint", "display/{ip}/{port}",
+			routes.MapRoute("displayPoint", "display/{prm1}/{prm2}",
 				defaults: new { controller = "Display", action = "Display", ip = UrlParameter.Optional, port = UrlParameter.Optional });
 
 			routes.MapRoute("displayPath", "display/{ip}/{port}/{updateFrequency}",
@@ -35,8 +35,10 @@ namespace Ex3
 			routes.MapRoute("savePath", "save/{ip}/{port}/{updateFrequency}/{duration}/{flightName}",
 				defaults: new { controller = "Display", action = "Save"});
 
-			routes.MapRoute("display", "displayFromFile/{flightName}/{updateFrequency}",
-				defaults: new { controller = "Display", action = "DisplayFromDB" });
+			routes.MapRoute("displayInfo", "getLocation",
+				defaults: new { controller = "Display", action = "GetLocation" });
+
+			
 		}
 	}
 }

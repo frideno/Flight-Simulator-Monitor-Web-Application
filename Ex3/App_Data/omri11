@@ -3,14 +3,45 @@
   <Name>omri11</Name>
   <FlightBlackBox>
     <FlightPointInfo>
-      <Lon>357.9134965</Lon>
+      <Lon>157.9134965</Lon>
       <Lat>21.32121469</Lat>
       <Throttle>0</Throttle>
       <Rudder>0</Rudder>
     </FlightPointInfo>
     <FlightPointInfo>
-      <Lon>397.9133276</Lon>
-      <Lat>21.32116061</Lat>
+      <Lon>97.9133276</Lon>
+      <Lat>-21.32116061</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+	<FlightPointInfo>
+      <Lon>7.9133276</Lon>
+      <Lat>-61.32116061</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+	<FlightPointInfo>
+      <Lon>-107.9133276</Lon>
+      <Lat>81.32116061</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+	<FlightPointInfo>
+      <Lon>27.9133276</Lon>
+      <Lat>-1.32116061</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+	<FlightPointInfo>
+      <Lon>127.9133276</Lon>
+      <Lat>-1.32116061</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+	<FlightBlackBox>
+    <FlightPointInfo>
+      <Lon>157.9134965</Lon>
+      <Lat>21.32121469</Lat>
       <Throttle>0</Throttle>
       <Rudder>0</Rudder>
     </FlightPointInfo>

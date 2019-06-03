@@ -12,18 +12,26 @@ namespace Ex3.Models
 	public class DisplayLocationModel: IModel
 	{
 		// simulator client for get and set requests.
-		private IClient flightSimulatorClient;
+		protected IClient flightSimulatorClient;
 
 		// data manager for getting lan lot.
-		private DataManager dataManager;
+		protected DataManager dataManager;
 
 		public DisplayLocationModel(string ip, int port)
 		{
-			IClient flightSimulatorClient = new RequestResponeClient();
-			flightSimulatorClient.IpAndPort = new IPEndPoint(IPAddress.Parse(ip), port);
-			flightSimulatorClient.Connect();
-			dataManager = new DataManager(flightSimulatorClient);
-
+			try
+			{
+				IClient flightSimulatorClient = new RequestResponeClient();
+				flightSimulatorClient.IpAndPort = new IPEndPoint(IPAddress.Parse(ip), port);
+				flightSimulatorClient.Connect();
+				dataManager = new DataManager(flightSimulatorClient);
+				NumberOfPoints = 0;
+			}
+			catch
+			{
+				Console.WriteLine("Connection Failed on ip: {0}, port: {1}. Try again with different parameters.", ip, port);
+				throw;
+			}
 		}
 
 
@@ -43,5 +51,8 @@ namespace Ex3.Models
 				return loc;
 			}
 		}
+
+		public int NumberOfPoints { get; set; }
+
 	}
 }

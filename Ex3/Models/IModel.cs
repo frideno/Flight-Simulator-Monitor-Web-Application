@@ -9,5 +9,6 @@ namespace Ex3.Models
 	public interface IModel
 	{
 		Location XY { get; }
+		int NumberOfPoints { get; set; }
 	}
 }

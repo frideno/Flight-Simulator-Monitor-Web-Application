@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlightInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>aharon</Name>
+  <FlightBlackBox>
+    <FlightPointInfo>
+      <Lon>-157.9071422</Lon>
+      <Lat>-157.9071422</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+    <FlightPointInfo>
+      <Lon>-157.9071422</Lon>
+      <Lat>-157.9071422</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+    <FlightPointInfo>
+      <Lon>0</Lon>
+      <Lat>-157.9071422</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+  </FlightBlackBox>
+</FlightInfo>

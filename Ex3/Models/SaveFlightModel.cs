@@ -26,9 +26,10 @@ namespace Ex3.Models
 			info = new FlightInfo();
 			info.Name = fileName;
 			info.FlightBlackBox = new List<FlightInfo.FlightPointInfo>();
-
+			index = 0;
 		}
 
+		private int index;
 		public override Location XY
 		{
 			get
@@ -45,20 +46,29 @@ namespace Ex3.Models
 
 				info.FlightBlackBox.Add(point);
 
-				// save current list to db (don't know when we should stop).
-				using (TextWriter writer = File.CreateText(Path.Combine(pathToAppData, fileName)))
+				if (index == NumberOfPoints)
 				{
-					serializer.Serialize(writer, info);
+					// save current list to db (don't know when we should stop).
+					using (TextWriter writer = File.CreateText(Path.Combine(pathToAppData, fileName)))
+					{
+						serializer.Serialize(writer, info);
+					}
 				}
-
+				else
+				{
+					index++;
+				}
 				return val;
 			}
 		}
+		
 
 		public string getProjectDirectoryPath()
 		{
 			//Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "App_Data");
-			return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3";
+			//return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3";
+			return HttpContext.Current.Server.MapPath("~");
+
 		}
 
 	}

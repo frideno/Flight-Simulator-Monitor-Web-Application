@@ -11,7 +11,7 @@ namespace Ex3.Models
 	public class DisplayDBLoaderModel : IModel
 	{
 
-		private int index = 0;
+		private int index;
 		private FlightInfo flightInfo;
 
 		public DisplayDBLoaderModel(string flightName)
@@ -26,6 +26,16 @@ namespace Ex3.Models
 			index = 0;
 		}
 
+		//private static DisplayDBLoaderModel instance = null;
+		//public static DisplayDBLoaderModel Instance(string flightName)
+		//{
+		//	if (instance == null)
+		//	{
+		//		instance = new DisplayDBLoaderModel(flightName);
+		//	}
+		//	return instance;
+		//}
+
 		public Location XY
 		{
 			// get from database:
@@ -35,16 +45,29 @@ namespace Ex3.Models
 				FlightInfo.FlightPointInfo point = flightInfo.FlightBlackBox[index];
 				loc.X = point.Lon;
 				loc.Y = point.Lat;
-				index++;
+
+				if (index < NumberOfPoints - 1)
+					index++;
 
 				return loc;
-				
+			}
+		}
+
+		public int NumberOfPoints
+		{
+			get
+			{
+				return flightInfo.FlightBlackBox.Count;
+			}
+			set
+			{
 			}
 		}
 		public string getProjectDirectoryPath()
 		{
 			//Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "App_Data");
-			return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3";
+			//return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3";
+			return HttpContext.Current.Server.MapPath("~");
 		}
 	}
 }
