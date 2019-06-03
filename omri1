@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlightInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>omri1</Name>
+  <FlightBlackBox>
+    <FlightPointInfo>
+      <Lon>-197.9127865</Lon>
+      <Lat>11.325434</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+    <FlightPointInfo>
+      <Lon>-140.9027865</Lon>
+      <Lat>30.315434</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+    <FlightPointInfo>
+      <Lon>-120.9007865</Lon>
+      <Lat>60.305434</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+    <FlightPointInfo>
+      <Lon>-100.8999865</Lon>
+      <Lat>50.300004</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+    <FlightPointInfo>
+      <Lon>-80.8999500</Lon>
+      <Lat>30.29542044</Lat>
+      <Throttle>0</Throttle>
+      <Rudder>0</Rudder>
+    </FlightPointInfo>
+  </FlightBlackBox>
+</FlightInfo>
