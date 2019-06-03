@@ -1,4 +1,4 @@
-﻿using Ex3.Models;
+using Ex3.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,8 +43,8 @@ namespace Ex3.Controllers
 			IModel model = new SaveFlightModel(ip, port, flightName);
 			ViewBag.UpdateFrequency = updateFrequency;
 			ViewBag.Duration = duration;
-			return View("CurrentLocationView", model);
-			// return View("FlightPathView", model);
+			//return View("CurrentLocationView", model);
+			return View("FlightPathView", model);
 
 		}
 
@@ -56,8 +56,8 @@ namespace Ex3.Controllers
 		{
 			IModel model = new DisplayDBLoaderModel(flightName);
 			ViewBag.UpdateFrequency = updateFrequency;
-			// return View("FlightPathView", model);
-			return View("CurrentLocationView", model);
+			return View("FlightPathView", model);
+			//return View("CurrentLocationView", model);
 		}
 	}
 }
