@@ -12,12 +12,13 @@
 
 </head>
 <body>
-	<img id="backgroundMap" src="~/Content/map.png" width="0" height="0" />
-	<canvas id="mainCanvas"></canvas>
-	<script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
-	<script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+    <img id="backgroundMap" src="~/Content/map.png" width="0" height="0" />
+    <canvas id="mainCanvas"></canvas>
+    <script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+    <link href="~/Content/fullpageimg.css" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript">
+    <script type="text/javascript">
 
 		function wait(ms) {
 			var start = new Date().getTime();
@@ -105,8 +106,8 @@
 			if (@ViewBag.ToAlert)
 				alert("flight finished !");
 		}, duration * 1000);
-		
-	</script>
+
+    </script>
 
 </body>
 </html>
