@@ -65,8 +65,7 @@ namespace Ex3.Models
 
 		public string getProjectDirectoryPath()
 		{
-			//Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "App_Data");
-			//return "C:\\Users\\omrif\\Documents\\Bar Ilan CS\\2019_half2\\advnce2\\Ex3\\ex3-code\\Ex3";
+			
 			return HttpContext.Current.Server.MapPath("~");
 
 		}

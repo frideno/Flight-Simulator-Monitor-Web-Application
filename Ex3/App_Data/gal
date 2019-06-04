@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlightInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>omri100</Name>
+  <FlightBlackBox>
+	<FlightPointInfo>
+	  <Lon>-80</Lon>
+	  <Lat>21  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-79</Lon>
+	  <Lat>-19.218005183595455  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-78</Lon>
+	  <Lat>-13.982799225708009  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-77</Lon>
+	  <Lat>-8.650546676147645  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-76</Lon>
+	  <Lat>-3.258255642341227  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-75</Lon>
+	  <Lat>2.156649075591193  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-74</Lon>
+	  <Lat>7.556585728914928  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-73</Lon>
+	  <Lat>12.904076453649033  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-72</Lon>
+	  <Lat>18.16200738293018  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-71</Lon>
+	  <Lat>23.293886233081768  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-70</Lon>
+	  <Lat>28.264095575630016  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-69</Lon>
+	  <Lat>33.0381400374518  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-68</Lon>
+	  <Lat>37.58288571338008  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-67</Lon>
+	  <Lat>41.86679012964056  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-66</Lon>
+	  <Lat>45.86012116207547  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-65</Lon>
+	  <Lat>49.53516338976921  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-64</Lon>
+	  <Lat>52.8664104518927  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-63</Lon>
+	  <Lat>55.83074207272848  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-62</Lon>
+	  <Lat>58.40758452624743  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-61</Lon>
+	  <Lat>60.57905342654404  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-60</Lon>
+	  <Lat>62.330077853104  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-59</Lon>
+	  <Lat>63.648504949421955  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-58</Lon>
+	  <Lat>64.52518426900993  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-57</Lon>
+	  <Lat>64.95403128339957  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-56</Lon>
+	  <Lat>64.93206961136534  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-55</Lon>
+	  <Lat>64.45945167628  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-54</Lon>
+	  <Lat>63.539457648231306  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-53</Lon>
+	  <Lat>62.178472678242365  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-52</Lon>
+	  <Lat>60.385942582599526  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-51</Lon>
+	  <Lat>58.17430828485793  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-50</Lon>
+	  <Lat>55.55891947052459  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-49</Lon>
+	  <Lat>52.55792805369292  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-48</Lon>
+	  <Lat>49.192162195015335  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-47</Lon>
+	  <Lat>45.48498174538298  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-46</Lon>
+	  <Lat>41.462116118595375  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-45</Lon>
+	  <Lat>37.151485718252346  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-44</Lon>
+	  <Lat>32.58300815824241  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-43</Lon>
+	  <Lat>27.78839062173947  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-42</Lon>
+	  <Lat>22.800909799825288  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-41</Lon>
+	  <Lat>17.655180937057715  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-40</Lon>
+	  <Lat>12.38691758690655  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-39</Lon>
+	  <Lat>7.032683744457044  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-38</Lon>
+	  <Lat>1.6296400766859906  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-37</Lon>
+	  <Lat>-3.784713988419868  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-36</Lon>
+	  <Lat>-9.172800523891368  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-35</Lon>
+	  <Lat>-14.497223910620624  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-34</Lon>
+	  <Lat>-19.721030378910644  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-33</Lon>
+	  <Lat>-24.80796448340156  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-32</Lon>
+	  <Lat>-29.72272073132778  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-31</Lon>
+	  <Lat>-34.43118861769915  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-30</Lon>
+	  <Lat>-38.90068936675718  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-29</Lon>
+	  <Lat>-43.100202736619345  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-28</Lon>
+	  <Lat>-47.0005823129911  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-27</Lon>
+	  <Lat>-50.57475779771488  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-26</Lon>
+	  <Lat>-53.797922888187436  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-25</Lon>
+	  <Lat>-56.64770744368225  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-24</Lon>
+	  <Lat>-59.10433274366931  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-23</Lon>
+	  <Lat>-61.15074876057308  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-22</Lon>
+	  <Lat>-62.77275249423749  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-21</Lon>
+	  <Lat>-63.9590865468059  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-20</Lon>
+	  <Lat>-64.70151725386472  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-19</Lon>
+	  <Lat>-64.99489182958686  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-18</Lon>
+	  <Lat>-64.83717412926354  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-17</Lon>
+	  <Lat>-64.22945878101719  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-16</Lon>
+	  <Lat>-63.175963588615325  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-15</Lon>
+	  <Lat>-61.6840002581131  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-14</Lon>
+	  <Lat>-59.76392365149408  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-13</Lon>
+	  <Lat>-57.42905991951073  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-12</Lon>
+	  <Lat>-54.695614012513275  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-11</Lon>
+	  <Lat>-51.58255721118123  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-10</Lon>
+	  <Lat>-48.111495457742414  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-9</Lon>
+	  <Lat>-44.30651940151672  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-8</Lon>
+	  <Lat>-40.19403719953291  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-7</Lon>
+	  <Lat>-35.802591232653036  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-6</Lon>
+	  <Lat>-31.162660009273196  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-5</Lon>
+	  <Lat>-26.306446631473108  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-4</Lon>
+	  <Lat>-21.267655291749893  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-3</Lon>
+	  <Lat>-16.08125735154399  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-2</Lon>
+	  <Lat>-10.783248625071977  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>-1</Lon>
+	  <Lat>-5.4103995530201665  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>0</Lon>
+	  <Lat>0.0  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>1</Lon>
+	  <Lat>5.4103995530201665  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>2</Lon>
+	  <Lat>10.783248625071977  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>3</Lon>
+	  <Lat>16.08125735154399  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>4</Lon>
+	  <Lat>21.267655291749893  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>5</Lon>
+	  <Lat>26.306446631473108  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>6</Lon>
+	  <Lat>31.162660009273196  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>7</Lon>
+	  <Lat>35.802591232653036  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>8</Lon>
+	  <Lat>40.19403719953291  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>9</Lon>
+	  <Lat>44.30651940151672  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>10</Lon>
+	  <Lat>48.111495457742414  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>11</Lon>
+	  <Lat>51.58255721118123  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>12</Lon>
+	  <Lat>54.695614012513275  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>13</Lon>
+	  <Lat>57.42905991951073  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>14</Lon>
+	  <Lat>59.76392365149408  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>15</Lon>
+	  <Lat>61.6840002581131  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>16</Lon>
+	  <Lat>63.175963588615325  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>17</Lon>
+	  <Lat>64.22945878101719  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>18</Lon>
+	  <Lat>64.83717412926354  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>19</Lon>
+	  <Lat>64.99489182958686  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>20</Lon>
+	  <Lat>64.70151725386472  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>21</Lon>
+	  <Lat>63.9590865468059  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>22</Lon>
+	  <Lat>62.77275249423749  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>23</Lon>
+	  <Lat>61.15074876057308  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>24</Lon>
+	  <Lat>59.10433274366931  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>25</Lon>
+	  <Lat>56.64770744368225  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>26</Lon>
+	  <Lat>53.797922888187436  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>27</Lon>
+	  <Lat>50.57475779771488  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>28</Lon>
+	  <Lat>47.0005823129911  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>29</Lon>
+	  <Lat>43.100202736619345  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>30</Lon>
+	  <Lat>38.90068936675718  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>31</Lon>
+	  <Lat>34.43118861769915  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>32</Lon>
+	  <Lat>29.72272073132778  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>33</Lon>
+	  <Lat>24.80796448340156  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>34</Lon>
+	  <Lat>19.721030378910644  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>35</Lon>
+	  <Lat>14.497223910620624  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>36</Lon>
+	  <Lat>9.172800523891368  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>37</Lon>
+	  <Lat>3.784713988419868  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>38</Lon>
+	  <Lat>-1.6296400766859906  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>39</Lon>
+	  <Lat>-7.032683744457044  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>40</Lon>
+	  <Lat>-12.38691758690655  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>41</Lon>
+	  <Lat>-17.655180937057715  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>42</Lon>
+	  <Lat>-22.800909799825288  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>43</Lon>
+	  <Lat>-27.78839062173947  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>44</Lon>
+	  <Lat>-32.58300815824241  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>45</Lon>
+	  <Lat>-37.151485718252346  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>46</Lon>
+	  <Lat>-41.462116118595375  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>47</Lon>
+	  <Lat>-45.48498174538298  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>48</Lon>
+	  <Lat>-49.192162195015335  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>49</Lon>
+	  <Lat>-52.55792805369292  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>50</Lon>
+	  <Lat>-55.55891947052459  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>51</Lon>
+	  <Lat>-58.17430828485793  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>52</Lon>
+	  <Lat>-60.385942582599526  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>53</Lon>
+	  <Lat>-62.178472678242365  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>54</Lon>
+	  <Lat>-63.539457648231306  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>55</Lon>
+	  <Lat>-64.45945167628  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>56</Lon>
+	  <Lat>-64.93206961136534  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>57</Lon>
+	  <Lat>-64.95403128339957  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>58</Lon>
+	  <Lat>-64.52518426900993  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>59</Lon>
+	  <Lat>-63.648504949421955  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>60</Lon>
+	  <Lat>-62.330077853104  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>61</Lon>
+	  <Lat>-60.57905342654404  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>62</Lon>
+	  <Lat>-58.40758452624743  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>63</Lon>
+	  <Lat>-55.83074207272848  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>64</Lon>
+	  <Lat>-52.8664104518927  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>65</Lon>
+	  <Lat>-49.53516338976921  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>66</Lon>
+	  <Lat>-45.86012116207547  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>67</Lon>
+	  <Lat>-41.86679012964056  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>68</Lon>
+	  <Lat>-37.58288571338008  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+	<FlightPointInfo>
+	  <Lon>69</Lon>
+	  <Lat>-33.0381400374518  </Lat>
+	  <Throttle>0</Throttle>
+	  <Rudder>0</Rudder>
+	</FlightPointInfo>
+  </FlightBlackBox>
+</FlightInfo>

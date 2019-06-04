@@ -19,7 +19,7 @@ namespace Ex3.Models
 		 * getting attribute value from simulator server.
 		 */
 
-		public double getFlightAttribute(string attributeName)
+		public double GetFlightAttribute(string attributeName)
 		{
 
 			string getline = flightSimulatorClient.Request("get " + attributeName + "\r\n");

@@ -12,19 +12,22 @@ namespace Ex3.Models
 	public class DisplayLocationModel: IModel
 	{
 		// simulator client for get and set requests.
-		protected IClient flightSimulatorClient;
-
 		// data manager for getting lan lot.
-		protected DataManager dataManager;
+		protected DataManager dataManager1;
+		protected DataManager dataManager2;
 
 		public DisplayLocationModel(string ip, int port)
 		{
 			try
 			{
-				IClient flightSimulatorClient = new RequestResponeClient();
-				flightSimulatorClient.IpAndPort = new IPEndPoint(IPAddress.Parse(ip), port);
-				flightSimulatorClient.Connect();
-				dataManager = new DataManager(flightSimulatorClient);
+				IClient flightSimulatorClient1 = new RequestResponeClient();
+				IClient flightSimulatorClient2 = new RequestResponeClient();
+				flightSimulatorClient1.IpAndPort = new IPEndPoint(IPAddress.Parse(ip), port);
+				flightSimulatorClient2.IpAndPort = new IPEndPoint(IPAddress.Parse(ip), port);
+				flightSimulatorClient1.Connect();
+				flightSimulatorClient2.Connect();
+				dataManager1 = new DataManager(flightSimulatorClient1);
+				dataManager2 = new DataManager(flightSimulatorClient2);
 				NumberOfPoints = 0;
 			}
 			catch
@@ -45,10 +48,9 @@ namespace Ex3.Models
 		{
 			get
 			{
-				Location loc = new Location();
-				loc.X = dataManager.getFlightAttribute("position/longitude-deg");
-				loc.Y = dataManager.getFlightAttribute("position/latitude-deg");
-				return loc;
+				double x = dataManager1.GetFlightAttribute("position/longitude-deg");
+				double y = dataManager2.GetFlightAttribute("position/latitude-deg");
+				return new Location { X = x, Y = y };
 			}
 		}
 

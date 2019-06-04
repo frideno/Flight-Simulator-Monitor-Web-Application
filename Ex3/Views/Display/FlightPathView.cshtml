@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <img id="backgroundMap" src="~/Content/map.png" width="0" height="0" />
+    <img id="backgroundMap" src="~/map.png" width="0" height="0" />
     <canvas id="mainCanvas"></canvas>
     <script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
@@ -34,23 +34,23 @@
 
 
 		}
-		function drawPoint(ctx, x, y) {
+		function drawPoint(ctx, x, y, size) {
 
 			// bigger circle:
 			ctx.beginPath();
 			ctx.fillStyle = "yellow";
-			ctx.arc(x, y, 5, 0, 2 * Math.PI);
+			ctx.arc(x, y, 1.25 * size, 0, 2 * Math.PI);
 			ctx.fill();
 			// smaller circle:
 			ctx.beginPath();
 			ctx.fillStyle = "red";
-			ctx.arc(x, y, 4, 0, 2 * Math.PI);
+			ctx.arc(x, y, size, 0, 2 * Math.PI);
 			ctx.fill();
 		}
 
 		function drawLine(ctx, x1, y1, x2, y2) {
 			ctx.beginPath();
-			ctx.strokeStyle = "white";
+			ctx.strokeStyle = "red";
 			ctx.moveTo(x1, y1);
 			ctx.lineTo(x2, y2);
 			ctx.stroke();
@@ -83,13 +83,13 @@
 
 				var x = ((Number(obj.x) + 180) / 360) * width;
 				var y = ((Number(obj.y) + 90) / 180) * height;
-				console.log('x, y = ' + x + " " + y);
-				drawPoint(ctx, x, y);
 
 				if (first) {
+					drawPoint(ctx, x, y, 4);
 					first = false;
 				}
 				else {
+					drawPoint(ctx, x, y, 0.1);
 					drawLine(ctx, oldX, oldY, x, y);
 				}
 				oldX = x;
