@@ -1,2 +1,2 @@
 # Ex3
-Advanced Programming Course - Excersize 3 - Web Application.
+Advanced Programming Course - Excercise 3 - WPF Web Application.
